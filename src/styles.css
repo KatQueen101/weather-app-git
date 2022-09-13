@@ -1,0 +1,73 @@
+body {
+  background: #9fd3c7;
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+}
+
+.weather-app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #53a8b6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+li {
+  margin: 20px;
+}
+.dallas {
+  padding-right: 450px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px auto;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sun-emoji {
+  position: relative;
+  left: 700px;
+  top: -200px;
+  font-size: 100px;
+}
+
+.card-body {
+  text-align: left;
+  font-size: 15px;
+}
+
+.weather-app {
+  max-width: 1000px;
+  margin: -30 auto;
+}
+
+.card {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -9px;
+}
