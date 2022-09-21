@@ -16,7 +16,7 @@ function formatDate(date) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[dayIndex];
 
@@ -72,7 +72,7 @@ dateElement.innerHTML = formatDate(time);
 
 // Feature #2
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("sumbit", handleSubmit);
+searchForm.addEventListener("submit", handleSubmit);
 
 searchCity("New York");
 // Bonus Feature
