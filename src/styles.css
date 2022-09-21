@@ -39,6 +39,7 @@ li {
 .sun-emoji {
   font-size: 150px;
   background: #f8f9fa;
+  top: 10px;
 }
 
 .card-body {
