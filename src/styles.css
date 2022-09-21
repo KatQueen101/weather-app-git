@@ -18,6 +18,10 @@ body {
   background-color: #53a8b6;
 }
 
+.box-one {
+  border-radius: 20px;
+}
+
 ul {
   list-style-type: none;
   padding: 10px;
