@@ -73,3 +73,7 @@ li {
   position: relative;
   top: -9px;
 }
+
+.footer {
+  text-align: center;
+}
