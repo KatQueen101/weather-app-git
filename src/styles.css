@@ -18,14 +18,16 @@ body {
   background-color: #53a8b6;
 }
 
-ul {
+ul,
+p {
   list-style-type: none;
   padding: 10px;
   text-align: center;
   font-size: 30px;
 }
 
-li {
+li,
+p {
   margin: 20px;
 }
 .dallas {
