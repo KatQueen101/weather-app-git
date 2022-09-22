@@ -75,6 +75,11 @@ li {
   top: -9px;
 }
 
+.celsius-link,
+.fahrenheit-link {
+  text-decoration: none;
+}
+
 .little {
   font-size: 20px;
   position: relative;
