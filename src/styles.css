@@ -73,11 +73,7 @@ li {
   font-size: 20px;
   position: relative;
   top: -9px;
-}
-
-.celsius-link,
-.fahrenheit-link {
-  text-decoration: dashed;
+  text-decoration: none;
 }
 
 .little {
