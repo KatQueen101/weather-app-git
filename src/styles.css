@@ -77,7 +77,7 @@ li {
 
 .celsius-link,
 .fahrenheit-link {
-  text-decoration: underline;
+  text-decoration: dashed;
 }
 
 .little {
