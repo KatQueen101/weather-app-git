@@ -50,6 +50,8 @@ function showTemperature(response) {
   temperatureElement.innerHTML = `${temperature}`;
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = Math.round(response.data.main.humidity);
+  let windElement = document.querySelector("#wind");
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 }
 
 function handlePosition(position) {
