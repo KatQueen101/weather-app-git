@@ -41,10 +41,9 @@ li {
   position: relative;
   font-size: 150px;
   background: #f8f9fa;
-  top: -8px;
+  top: 30px;
   border-radius: 10px;
   margin: 10px;
-  padding: -30px;
 }
 
 .card-body {
