@@ -75,6 +75,10 @@ li {
   top: -9px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .little {
   font-size: 20px;
   position: relative;
