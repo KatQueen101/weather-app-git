@@ -39,6 +39,7 @@ li {
 
 .sun-emoji {
   position: relative;
+  font-size: 150px;
   background: #f8f9fa;
   top: 30px;
   border-radius: 10px;
