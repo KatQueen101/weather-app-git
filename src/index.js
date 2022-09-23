@@ -48,7 +48,6 @@ function showTemperature(response) {
   h1.innerHTML = `${response.data.name}`;
   let temperatureElement = document.querySelector("#temp");
   temperatureElement.innerHTML = `${temperature}`;
-  fahrenheitTemperature = response.data.main.temp;
 }
 
 function handlePosition(position) {
@@ -71,29 +70,9 @@ let dateElement = document.querySelector("#date");
 let time = new Date();
 dateElement.innerHTML = formatDate(time);
 
-function displayFahrenheitTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
-}
-function displayCelsiusTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  let celsiusTemperature = ((fahrenheitTemperature - 32) * 5) / 9;
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-}
-
 // Feature #2
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
-
-let fahrenheitTemperature = null;
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 searchCity("New York");
 // Bonus Feature
