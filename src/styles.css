@@ -20,9 +20,9 @@ body {
 
 .city {
   font-weight: 1000;
+  text-align: left;
 }
 
-h1,
 ul,
 .extra {
   list-style-type: none;
