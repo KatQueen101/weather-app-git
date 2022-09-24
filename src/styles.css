@@ -18,6 +18,10 @@ body {
   background-color: #53a8b6;
 }
 
+.city {
+  font-weight: 1000;
+}
+
 ul,
 .extra {
   list-style-type: none;
