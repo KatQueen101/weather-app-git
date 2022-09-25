@@ -61,33 +61,33 @@ function showTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
+  tempC = response.data.main.temp;
 }
 
-let celsiusTemp = null;
-let fahrenheitTemp = null;
-// Celsius to Fahrenheit
-function convertToFahrenheit(event) {
+function changeUnitF(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#temp");
-  celsiusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
-  let temperature = celsiusTemp;
-  // temperature = Number(temperature);
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  let temperature = document.querySelector("#temp");
+  let unitF = (tempC * 9) / 5 + 32;
+  temperature.innerHTML = Math.round(unitF);
+  celsius.classList.remove("active");
+  fahrenheit.classList.add("active");
 }
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
-// Fahrenheint to Celsius
-function convertToCelsius(event) {
-  event.preventDefault();
-  celsiusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
-  let temperatureElement = document.querySelector("#temp");
-  temperatureElement.innerHTML = Math.round(celsiusTemp);
+function changeUnitC(event) {
+  event.preventDefault;
+  let temperature = document.querySelector("#temp");
+  temperature.innerHTML = Math.round(tempC);
+  fahrenheit.classList.remove("active");
+  celsius.classList.add("active");
 }
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", convertToCelsius);
+
+let tempC = null;
+
+let fahrenheit = document.querySelector("#fahrenheit-link");
+fahrenheit.addEventListener("click", changeUnitF);
+
+let celsius = document.querySelector("#celsius-link");
+celsius.addEventListener("click", changeUnitC);
 
 function handlePosition(position) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
