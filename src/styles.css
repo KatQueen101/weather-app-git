@@ -23,6 +23,11 @@ body {
   text-align: left;
 }
 
+.card-2 {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
 ul,
 .extra {
   list-style-type: none;
