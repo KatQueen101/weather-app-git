@@ -44,10 +44,9 @@ function handleSubmit(event) {
 
 function showTemperature(response) {
   let h1 = document.querySelector("#city");
-  let temperature = Math.round(response.data.main.temp);
+  let temperature = document.querySelector("#temp");
+  temperature.innerHTML = Math.round(response.data.main.temp);
   h1.innerHTML = `${response.data.name}`;
-  let temperatureElement = document.querySelector("#temp");
-  temperatureElement.innerHTML = `${temperature}`;
 
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = Math.round(response.data.main.humidity);
@@ -66,17 +65,17 @@ function showTemperature(response) {
 
 function changeUnitF(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("#temp");
+  let temperature = document.querySelector("#temp");
   let unitF = (tempC * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(unitF);
+  temperature.innerHTML = Math.round(unitF);
   celsius.classList.remove("active");
   fahrenheit.classList.add("active");
 }
 
 function changeUnitC(event) {
   event.preventDefault;
-  let temperatureElement = document.querySelector("#temp");
-  temperatureElement.innerHTML = Math.round(tempC);
+  let temperature = document.querySelector("#temp");
+  temperature.innerHTML = Math.round(tempC);
   fahrenheit.classList.remove("active");
   celsius.classList.add("active");
 }
