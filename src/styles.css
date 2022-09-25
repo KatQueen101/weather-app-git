@@ -75,6 +75,10 @@ li {
   font-weight: 900;
 }
 
+.h1 {
+  text-align: center;
+}
+
 .units {
   font-size: 20px;
   position: relative;
