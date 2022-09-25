@@ -24,7 +24,9 @@ body {
 }
 
 ul,
-.extra {
+.extra,
+.humidity,
+.wind {
   list-style-type: none;
   padding: 10px;
   text-align: left;
@@ -68,14 +70,9 @@ li {
   text-align: center;
 }
 
-.bold,
 .weather-forecast-temperatures-max,
 .weather-forecast-temperatures-min {
   font-weight: 900;
-}
-
-.temp {
-  font-size: 200px;
 }
 
 .units {
