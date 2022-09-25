@@ -19,7 +19,7 @@ body {
 }
 
 .city {
-  font-weight: 1000;
+  font-weight: 2000;
   text-align: left;
 }
 
@@ -75,7 +75,7 @@ li {
 }
 
 .units {
-  font-size: 20px;
+  font-size: 10px;
   position: relative;
   top: -9px;
 }
