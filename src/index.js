@@ -60,13 +60,13 @@ function showTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
-  tempC = response.data.main.temp;
+  tempCurrent = response.data.main.temp;
 }
 
 function changeUnitF(event) {
   event.preventDefault();
   let temperature = document.querySelector("#temp");
-  let unitF = (tempC * 9) / 5 + 32;
+  let unitF = (tempCurrent * 9) / 5 + 32;
   temperature.innerHTML = Math.round(unitF);
   celsius.classList.remove("active");
   fahrenheit.classList.add("active");
@@ -75,12 +75,12 @@ function changeUnitF(event) {
 function changeUnitC(event) {
   event.preventDefault;
   let temperature = document.querySelector("#temp");
-  temperature.innerHTML = Math.round(tempC);
+  temperature.innerHTML = Math.round(tempCurrent);
   fahrenheit.classList.remove("active");
   celsius.classList.add("active");
 }
 
-let tempC = null;
+let tempCurrent = null;
 
 let fahrenheit = document.querySelector("#fahrenheit-link");
 fahrenheit.addEventListener("click", changeUnitF);
