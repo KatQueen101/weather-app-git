@@ -66,17 +66,17 @@ function showTemperature(response) {
 
 function changeUnitF(event) {
   event.preventDefault();
-  let temperature = document.querySelector("#temp");
+  let temperatureElement = document.querySelector("#temp");
   let unitF = (tempC * 9) / 5 + 32;
-  temperature.innerHTML = Math.round(unitF);
+  temperatureElement.innerHTML = Math.round(unitF);
   celsius.classList.remove("active");
   fahrenheit.classList.add("active");
 }
 
 function changeUnitC(event) {
   event.preventDefault;
-  let temperature = document.querySelector("#temp");
-  temperature.innerHTML = Math.round(tempC);
+  let temperatureElement = document.querySelector("#temp");
+  temperatureElement.innerHTML = Math.round(tempC);
   fahrenheit.classList.remove("active");
   celsius.classList.add("active");
 }
