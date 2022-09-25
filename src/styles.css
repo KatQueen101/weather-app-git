@@ -74,8 +74,12 @@ li {
   font-weight: 900;
 }
 
+.temp {
+  font-size: 50px;
+}
+
 .units {
-  font-size: 10px;
+  font-size: 20px;
   position: relative;
   top: -9px;
 }
