@@ -18,6 +18,12 @@ body {
   background-color: #f8f9fa;
 }
 
+.city-input,
+.glass,
+.button {
+  text-align: center;
+}
+
 .city {
   font-weight: 1000;
   text-align: left;
