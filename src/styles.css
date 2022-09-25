@@ -80,6 +80,16 @@ li {
   top: -9px;
 }
 
+.active {
+  color: black;
+  cursor: default;
+  font-weight: 600;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
