@@ -60,6 +60,7 @@ li {
 .weather-app {
   max-width: 1000px;
   margin: -30 auto;
+  top: -100px;
 }
 
 .card {
