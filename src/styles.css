@@ -18,6 +18,10 @@ body {
   background-color: #f8f9fa;
 }
 
+.row {
+  text-align: center;
+}
+
 .col-2 {
   position: relative;
   top: 300px;
