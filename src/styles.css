@@ -31,6 +31,7 @@ ul,
   padding: 10px;
   text-align: left;
   font-size: 20px;
+  opacity: 0.5;
 }
 
 li {
