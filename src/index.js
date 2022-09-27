@@ -42,6 +42,10 @@ function handleSubmit(event) {
   searchCity(city);
 }
 
+function getForecast(coordinates) {
+  console.log(coordinates);
+}
+
 function showTemperature(response) {
   let h1 = document.querySelector("#city");
   let temperature = document.querySelector("#temp");
@@ -62,6 +66,7 @@ function showTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
   tempCurrent = response.data.main.temp;
+  getForecast(response.data.coord);
 }
 
 function changeUnitF(event) {
