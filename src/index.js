@@ -24,7 +24,7 @@ function formatDate(date) {
 }
 
 function displayForecast(response) {
-  console.log(response.data);
+  console.log(response.data.daily);
 }
 
 function displayWeatherCondition(response) {
