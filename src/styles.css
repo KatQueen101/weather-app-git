@@ -67,7 +67,8 @@ li {
 }
 
 .weather-forecast-date,
-.weather-forecast-temperatures {
+.weather-forecast-temperatures,
+.week {
   text-align: center;
 }
 
@@ -79,10 +80,6 @@ li {
 .weather-forecast-date,
 .weather-forecast-temperatures-min {
   opacity: 0.5;
-}
-
-.week {
-  text-align: center;
 }
 
 .number {
