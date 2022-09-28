@@ -67,6 +67,7 @@ li {
 }
 
 .weather-forecast-date,
+.images,
 .weather-forecast-temperatures {
   text-align: center;
 }
