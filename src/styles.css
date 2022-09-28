@@ -67,8 +67,8 @@ li {
 }
 
 .weather-forecast-date,
-.weather-forecast-temperatures,
-.week {
+.image,
+.weather-forecast-temperatures {
   text-align: center;
 }
 
