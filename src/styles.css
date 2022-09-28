@@ -68,7 +68,7 @@ li {
 
 .weather-forecast-date,
 .weather-forecast-temperatures {
-  text-align: left;
+  text-align: center;
 }
 
 .weather-forecast-temperatures-max,
