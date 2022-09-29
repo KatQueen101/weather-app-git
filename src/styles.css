@@ -72,13 +72,13 @@ li {
   text-align: center;
 }
 
-.weather-forecast-temperature-max,
-.weather-forecast-temperature-min {
+.weather-forecast-temperatures-max,
+.weather-forecast-temperatures-min {
   font-weight: 900;
 }
 
 .weather-forecast-date,
-.weather-forecast-temperature-min {
+.weather-forecast-temperatures-min {
   opacity: 0.5;
 }
 
