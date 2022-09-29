@@ -67,9 +67,14 @@ li {
 }
 
 .weather-forecast-date,
-.images,
 .weather-forecast-temperatures {
   text-align: center;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .weather-forecast-temperature-max,
