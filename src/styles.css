@@ -72,7 +72,8 @@ li {
 }
 
 .images {
-  text-align: right;
+  position: relative;
+  right: 10px;
 }
 
 .weather-forecast-temperature-max,
