@@ -49,7 +49,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-  <div class="col-sm-2">
+  <div class="col-sm-2 text-center">
     <div class="weather-forecast-date">${formatDay(forecastDay.dt)}</div>
       <img
         src="http://openweathermap.org/img/wn/${
