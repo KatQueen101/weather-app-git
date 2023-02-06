@@ -1,0 +1,82 @@
+body {
+  background: #9fd3c7;
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+}
+
+.container {
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #f8f9fa;
+}
+
+.col-2 {
+  position: relative;
+  top: 300px;
+}
+
+ul,
+.extra,
+.humidity,
+.wind {
+  list-style-type: none;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+li {
+  margin: 20px;
+}
+
+.card-body {
+  text-align: left;
+  font-size: 15px;
+}
+
+.weather-app {
+  max-width: 1000px;
+  margin: -30 auto;
+}
+
+.card {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.number {
+  text-align: left;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+}
+
+.active {
+  color: black;
+  cursor: default;
+  font-weight: 600;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
